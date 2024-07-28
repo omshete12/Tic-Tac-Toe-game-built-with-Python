@@ -1,7 +1,7 @@
 # Tic-Tac-Toe-game-built-with-Python
 # Note- Code is excuted in Jupyter Notebook
-from IPython.display import clear_output
 
+from IPython.display import clear_output
 def display_board(board):
     clear_output()
     print(board[7]+'|'+board[8]+'|'+board[9])
